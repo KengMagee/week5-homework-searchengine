@@ -1,12 +1,13 @@
+import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-        <button className="btn btn-primary">Hello</button>
-        <p>
+        <Weather />
+        <footer>
           This project was coded by{" "}
           <a
             href="https://www.shecodes.io/graduates/102970-karen-felipe"
@@ -14,16 +15,24 @@ export default function App() {
             rel="noreferrer"
           >
             Karen Felipe
-          </a>{" "}
-          and is open-sourced on{" "}
+          </a>
+          , is open-sourced on{" "}
           <a
             href="https://github.com/KengMagee/week5-homework-searchengine"
             target="_blank"
             rel="noreferrer"
           >
             Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://leafy-shortbread-87afe4.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );
