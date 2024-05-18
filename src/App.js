@@ -9,6 +9,7 @@ export default function App() {
         <a
           href="https://www.shecodes.io/graduates/102970-karen-felipe"
           target="_blank"
+          rel="noreferrer"
         >
           Karen Felipe
         </a>{" "}
@@ -16,6 +17,7 @@ export default function App() {
         <a
           href="https://github.com/KengMagee/week5-homework-searchengine"
           target="_blank"
+          rel="noreferrer"
         >
           Github
         </a>
