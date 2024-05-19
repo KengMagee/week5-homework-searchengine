@@ -25,20 +25,22 @@ body {
   line-height: 29px;
   margin: 20px 0 0 0;
 }
+.Weather ul {
+  margin: 10px;
+  padding: 10px;
+}
 
 .Weather li {
   color: rgb(112, 117, 122);
   font-size: 18px;
   font-weight: 400;
   height: 20px;
-  line-height: 16px;
+  line-height: 19px;
   list-style: none;
 }
 
 .Weather canvas {
-  margin-right: 5px;
-  display: inline-block;
-  margin-top: 5px;
+  margin: 10px auto;
 }
 .Weather .temperature {
   font-weight: bold;
@@ -46,6 +48,8 @@ body {
   font-size: 60px;
   font-weight: 400;
   line-height: 64px;
+  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .Weather .unit {
