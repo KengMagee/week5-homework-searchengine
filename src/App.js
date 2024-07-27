@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://www.shecodes.io/graduates/102970-karen-felipe"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Karen Felipe
           </a>
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://github.com/KengMagee/week5-homework-searchengine"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Github
           </a>{" "}
@@ -28,7 +28,7 @@ export default function App() {
           <a
             href="https://leafy-shortbread-87afe4.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
